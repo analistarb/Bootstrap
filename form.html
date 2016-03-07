@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="ISO-8859-1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>TEx Tecnologia</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+
+    <!-- HTML5 shim e Respond.js para suporte no IE8 de elementos HTML5 e media queries -->
+    <!-- ALERTA: Respond.js não funciona se você visualizar uma página file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <!-- Menu -->
+    <nav class="navbar navbar-inverse navbar-fixed-top navbar-custom" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="login.html">Entrar</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="users.html">Usuários</a>
+                    </li>
+                    <li>
+                        <a href="form.html">Formulário</a>
+                    </li>
+                    <li>
+                        <a href="login.html">Sair</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+
+    <!-- Page Content -->
+
+
+
+
+
+    <form class="form-horizontal">
+        <fieldset>
+
+            <h3 style="margin-left: 150px; color:#0080ff;">Perfil de usuário</h2>
+<br>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="textinput">* Usuário</label>  
+  <div class="col-md-4">
+  <input id="textinput" name="textinput" placeholder="Nome de usuário" class="form-control input-md" required="" type="text">    
+  </div>
+</div>
+
+
+<!-- Password input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="passwordinput">* Senha</label>
+  <div class="col-md-4">
+    <input id="passwordinput" name="passwordinput" placeholder="Senha" class="form-control input-md" required="" type="password">    
+  </div>
+</div>
+
+<!-- Password input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="passwordinput">* Confirmar Senha</label>
+  <div class="col-md-4">
+    <input id="passwordinput" name="passwordinput" placeholder="Confirmar Senha" class="form-control input-md" type="password">    
+  </div>
+</div>
+
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="textinput">* Dica de senha</label>  
+  <div class="col-md-4">
+  <input id="textinput" name="textinput" placeholder="Dica de senha" class="form-control input-md" required="" type="text">    
+  </div>
+</div>
+
+
+
+
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="textinput">* Nome</label>  
+  <div class="col-md-4">
+  <input id="textinput" name="textinput" placeholder="Nome" class="form-control input-md" type="text"> 
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="textinput">* Sobrenome</label>  
+  <div class="col-md-4">
+  <input id="textinput" name="textinput" placeholder="Sobrenome" class="form-control input-md" type="text">    
+  </div>
+</div>
+
+<div class="form-group">
+  <label class="col-md-4 control-label" for="textinput">* E-mail</label>  
+  <div class="col-md-4">
+  <input type="email" id="inputEmail" class="form-control" placeholder="email@gmail.com.br" required autofocus>
+  </div>
+</div>
+
+
+<div class="form-group">
+  <label class="col-md-4 control-label" for="textinput">Número de telefone</label>  
+  <div class="col-md-4">
+  <input type="textinput" id="txtTelefone" class="form-control" placeholder="(11) 99999-9999" required autofocus>
+  </div>
+</div>
+
+
+
+<div class="form-group">
+  <label class="col-md-4 control-label" for="textinput">* Website</label>  
+  <div class="col-md-4">
+  <input id="textinput" name="textinput" placeholder="http://meusite.com.br" class="form-control input-md" type="text">    
+  </div>
+</div>
+
+
+
+<h3 style="margin-left: 150px; color:#0080ff;">Endereço</h2>
+
+
+<!-- Multiple Checkboxes (inline) -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="checkboxes">Configurações da conta </label>
+  <div class="col-md-4">
+    <label class="checkbox-inline" for="checkboxes-0">
+      <input type="checkbox" name="checkboxes" id="checkboxes-0" value="Ativa">
+      Ativa
+    </label>
+    <label class="checkbox-inline" for="checkboxes-1">
+      <input type="checkbox" name="checkboxes" id="checkboxes-1" value="Expirada">
+      Expirada
+    </label>
+    <label class="checkbox-inline" for="checkboxes-2">
+      <input type="checkbox" name="checkboxes" id="checkboxes-2" value="Bloqueada">
+      Bloqueada
+    </label>
+    <label class="checkbox-inline" for="checkboxes-3">
+      <input type="checkbox" name="checkboxes" id="checkboxes-3" value="Senha expirada">
+      Senha expirada
+    </label>
+  </div>
+</div>
+
+<!-- Select Multiple -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="selectmultiple">Regras de acesso</label>
+  <div class="col-md-4">
+    <select id="selectmultiple" name="selectmultiple" class="form-control" multiple="multiple">
+      <option value="1">ROLE_ADMIN</option>
+      <option value="2">ROLE_USER</option>
+    </select>
+  </div>
+</div>
+
+
+
+
+
+<h3 style="margin-left: 150px; color:#0080ff;">Outras Informações</h2>
+
+
+<!-- Select Basic -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="selectbasic">Sexo</label>
+  <div class="col-md-4">
+    <select id="selectbasic" name="selectbasic" class="form-control">
+      <option value="1">Masculino</option>
+      <option value="2">Feminino</option>
+    </select>
+  </div>
+</div>
+
+
+<!-- File Button --> 
+<div class="form-group">
+  <label class="col-md-4 control-label" for="filebutton">Enviar arquivo</label>
+  <div class="col-md-4">
+    <input id="filebutton" name="filebutton" class="input-file" type="file">
+  </div>
+</div>
+
+
+<!-- Multiple Radios -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="radios">Trabalha atualmente?</label>
+  <div class="col-md-4">
+  <div class="radio">
+    <label for="radios-0">
+      <input name="radios1" id="radios-0" value="1" checked="checked" type="radio">
+      Sim
+    </label>
+	</div>
+  <div class="radio">
+    <label for="radios-1">
+      <input name="radios1" id="radios-1" value="2" type="radio">
+      Não
+    </label>
+	</div>
+  </div>
+</div>
+
+
+
+
+
+
+<!-- Multiple Checkboxes (inline) -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="checkboxes">Deficiência</label>
+  <div class="col-md-4">
+    <label class="checkbox-inline" for="checkboxes-0">
+      <input name="checkboxes" id="checkboxes-0" value="1" type="checkbox">
+      Motora
+    </label>
+    <label class="checkbox-inline" for="checkboxes-1">
+      <input name="checkboxes" id="checkboxes-1" value="2" type="checkbox">
+      Visual
+    </label>
+    <label class="checkbox-inline" for="checkboxes-2">
+      <input name="checkboxes" id="checkboxes-2" value="3" type="checkbox">
+      Mental
+    </label>
+    <label class="checkbox-inline" for="checkboxes-3">
+      <input name="checkboxes" id="checkboxes-3" value="4" type="checkbox">
+      Auditiva
+    </label>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Multiple Radios (inline) -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="radios">Grau de escolaridade</label>
+  <div class="col-md-5"> 
+    <label class="radio-inline" for="radios-01">
+      <input name="radios2" id="radios-01" value="1" checked="checked" type="radio">
+      Ensino Fundamental
+    </label> 
+    <label class="radio-inline" for="radios-11">
+      <input name="radios2" id="radios-11" value="2" type="radio">
+      Ensino Médio
+    </label> 
+    <label class="radio-inline" for="radios-21">
+      <input name="radios2" id="radios-21" value="3" type="radio">
+      Educação Superior 
+    </label> 
+  </div>
+</div>
+
+
+
+<!-- Textarea -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="textarea">Observações</label>
+  <div class="col-md-4">                     
+    <textarea class="form-control" id="textarea" name="textarea"></textarea>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+<!-- Button Drop Down -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="buttondropdown">Botão Drop Down</label>
+  <div class="col-md-4">
+    <div class="input-group">
+      <input id="buttondropdown" name="buttondropdown" class="form-control" placeholder="" type="text">
+      <div class="input-group-btn">
+        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+          Ação
+          <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu pull-right">
+          <li><a href="#">Opção 1</a></li>
+          <li><a href="#">Opção 2</a></li>
+          <li><a href="#">Opção 3</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+<!-- Prepended checkbox -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="prependedcheckbox">Checkbox Anexado</label>
+  <div class="col-md-4">
+    <div class="input-group">
+      <span class="input-group-addon">     
+          <input type="checkbox">     
+      </span>
+      <input id="prependedcheckbox" name="prependedcheckbox" class="form-control" placeholder="" type="text">
+    </div>
+  </div>
+</div>
+
+<!-- Prepended text-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="prependedtext">Texto anexado</label>
+  <div class="col-md-4">
+    <div class="input-group">
+      <span class="input-group-addon">Texto</span>
+      <input id="prependedtext" name="prependedtext" class="form-control" placeholder="" type="text">
+    </div>
+  </div>
+</div>
+
+</fieldset>
+</form>
+
+
+
+<br><br>
+
+
+
+
+
+
+<div class="container col-md-offset-4">
+
+<button type="button" class="btn btn-primary">Salvar</button>
+<button type="button" class="btn btn-default">Apagar</button>
+<button type="button" class="btn btn-default">Cancelar</button>
+
+</div>
+
+<br>  
+
+<br><br>
+
+<!-- /container -->
+
+
+    <!-- jQuery (obrigatório para plugins JavaScript do Bootstrap) -->
+    <script src="js/jquery.js"></script>
+    <!-- Inclui todos os plugins compilados (abaixo), ou inclua arquivos separadados se necessário -->
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+</html>
